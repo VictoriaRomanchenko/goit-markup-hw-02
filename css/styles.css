@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -24,7 +26,7 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -54,7 +56,9 @@ button {
 }
 
 
-.address {}
+.address {
+    font-style: normal;
+}
 
 .nav-address {}
 
@@ -76,7 +80,7 @@ button {
 
 /* #endregion header */
 
-/* #region header */
+/* #region hero */
 
 .hero {
     background: #2e2f42;
@@ -86,6 +90,7 @@ button {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
 }
@@ -103,19 +108,21 @@ button {
 .hero-btn:focus {
     background-color: #404bbf;
 }
-/* #endregion header */
+/* #endregion hero */
 
 /* #region description */
 
 .description {}
 
-.description-title {
+.description-title {}
+
+.description-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
+    }
 
 .description-list {}
 .description-item {}
@@ -141,12 +148,16 @@ button {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .team-list {}
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-subtitle {
     font-weight: 500;
@@ -174,6 +185,8 @@ button {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -209,7 +222,7 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
